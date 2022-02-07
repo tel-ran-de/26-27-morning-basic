@@ -1,0 +1,43 @@
+* {
+	font-family: 'OpenSans', sans-serif;
+}
+html {
+	font-size: 18px;
+}
+body {
+	background-color: rgb(240, 174, 174);
+}
+h1,
+h2 {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 1.8em;
+}
+
+h2 {
+	font-family: serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.one-div .one-span {
+	color: lightseagreen;
+}
+
+.one-div > .one-span {
+	text-decoration: underline;
+}
+
+.red-border {
+	border: 1px solid red;
+}
+
+p {
+	border: 1px solid blue;
+}
