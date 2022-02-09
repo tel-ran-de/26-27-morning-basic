@@ -1,0 +1,19 @@
+html {
+	font-size: 21px;
+}
+
+.size-px {
+	font-size: 18px;
+}
+
+.size-em {
+	font-size: 1.5em;
+}
+
+.some-size {
+	font-size: 1.2em;
+}
+
+.size-rem {
+	font-size: 2rem;
+}
