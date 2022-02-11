@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.main-bg {
+	background-image: url(../img/bg-small.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-bg div {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 20px;
+}

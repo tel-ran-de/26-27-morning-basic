@@ -1,0 +1,91 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #f5f7fa;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0 20px 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: #333333;
+}
+
+.description_text {
+  font-size: 14px;
+}
+
+.screenshot {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.screenshot img {
+  width: 300px;
+}
+
+.screenshot_description {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.information_box {
+  margin: 20px;
+  padding: 20px;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+
+.personal_item {
+  background-color: #1e2939;
+  color: white;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  color: #fb6d3a;
+}
+
+.img_margin {
+  margin-top: 20px;
+}
+
+.table {
+  margin: 10px 0 10px 0;
+}
+.table td {
+  padding: 10px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 30px 0 20px 0;
+}

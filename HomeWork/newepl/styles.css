@@ -1,0 +1,48 @@
+h1,
+h3 {
+  font-family: "Rubik", sans-serif;
+  color: rgb(238, 238, 238);
+  -webkit-text-stroke: 1px rgb(12, 12, 12);
+}
+h2 {
+  font-family: "Rubik", sans-serif;
+  color: rgb(179, 216, 221);
+  -webkit-text-stroke: 1px rgb(12, 12, 12);
+}
+th {
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(12, 12, 12);
+  -webkit-text-stroke: 0.5px rgb(12, 12, 12);
+}
+body {
+  background-image: url(./logos/fon.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+p {
+  font-family: "Rubik", sans-serif;
+  color: rgb(238, 238, 238);
+  font-size: 1.15em;
+  font-weight: bold;
+  -webkit-text-stroke: 1px rgb(12, 12, 12);
+}
+.center-logo {
+  display: block;
+  margin: 0 auto;
+}
+.links {
+  font-family: "Nunito Sans", sans-serif;
+}
+.tableb {
+  background-color: rgb(179, 216, 221);
+}
+.pg {
+  background-color: rgb(25, 194, 10);
+}
+.mg {
+  background-color: rgb(230, 56, 56);
+}
+.zg {
+  background-color: rgb(191, 207, 40);
+}

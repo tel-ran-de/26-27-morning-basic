@@ -1,0 +1,58 @@
+* {
+  font-family: "LatoLight", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+h1 {
+  font-style: italic;
+  color: rgb(20, 20, 92);
+}
+h2 {
+  text-decoration: underline;
+}
+html {
+  background-color: rgb(216, 239, 245);
+}
+.some-size {
+  font-size: 20px;
+}
+.shadow {
+  width: 20%;
+  box-shadow: 5px 5px 3px rgb(13, 131, 150);
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.backgraund1 {
+  background-color: rgb(209, 245, 245);
+}
+.backgraund2 {
+  background-color: rgb(129, 201, 199);
+}
+a {
+  text-decoration: none;
+}
+hr {
+  color: rgb(13, 131, 150);
+}
+.colorname {
+  color: rgb(25, 81, 95);
+  font-style: italic;
+  padding: 10px;
+}
+
+.table {
+  color: rgb(26, 78, 78);
+  margin: 20px;
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(206, 236, 234);
+  border-radius: 10px;
+  border-color: rgb(28, 119, 172);
+  font-style: italic;
+}
+#sales {
+  padding: 5px;
+}

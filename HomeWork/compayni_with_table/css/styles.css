@@ -1,0 +1,30 @@
+body {
+  background-image: url("../images/14.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+.one-div span.one-span {
+  color: rgb(3, 177, 3);
+  text-decoration: underline;
+}
+
+h3 {
+  border: 1px solid green;
+}

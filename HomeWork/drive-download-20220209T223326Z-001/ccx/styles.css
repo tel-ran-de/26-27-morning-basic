@@ -1,0 +1,15 @@
+* {
+  background-image: url("..\image\istock.jpg");
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3 {
+  background-color: blueviolet;
+  font-family: "Lato";
+}
+
+* {
+  font-style: italic;
+}

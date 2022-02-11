@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Английская Премьер-лига</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,900;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img src="./logos/epl.png" alt="logo" width="250px" class="center-logo" />
+      <h1 style="text-align: center">Английская Премьер-лига</h1>
+    </div>
+    <div style="text-align: right" ; id="navigation">
+      <ul class="links">
+        <li><a href="#header">Английская Премьер-лига</a></li>
+        <li><a href="#about">О лиге</a></li>
+        <li><a href="#history">История</a></li>
+        <li><a href="#teams">Команды-участники</a></li>
+        <li><a href="#table">Таблица</a></li>
+        <li><a href="#championship">Чемпионшип</a></li>
+        <li><a href="#link">Ссылки</a></li>
+      </ul>
+    </div>
+    <div id="about">
+      <h2>О лиге</h2>
+      <p>
+        Премьер-лига — профессиональная футбольная лига для английских
+        футбольных клубов (также в ней могут играть некоторые клубы из Уэльса).
+        Является высшим дивизионом в системе футбольных лиг Англии. В ней
+        выступают 20 клубов. Чемпионат проходит с августа по май, каждая команда
+        проводит 38 матчей. За пределами Англии турнир часто называют
+        «английской Премьер-лигой»
+      </p>
+    </div>
+    <div id="history">
+      <h2>История</h2>
+      <p>
+        Турнир был основан 20 февраля 1992 года под названием «Премьер-лига
+        Футбольной ассоциации» после того, как клубы Первого дивизиона приняли
+        решение о выходе из Футбольной лиги, основанной в 1888 году, с целью
+        получения большей финансовой выгоды, в первую очередь за счёт получения
+        большей прибыли от продажи прав на телевизионные трансляции. С тех пор
+        Премьер-лига стала самым популярным спортивным чемпионатом в мире. Также
+        она является самой прибыльной футбольной лигой в мире: консолидированные
+        клубные доходы в сезоне 2007/08 составили 1,93 млрд фунтов (3,15 млрд
+        долларов). На данный момент, если судить по таблице коэффициентов УЕФА,
+        Премьер-лига является лучшим национальным чемпионатом в Европе.
+      </p>
+    </div>
+    <div id="teams">
+      <h2>Команды-участники</h2>
+      <ul>
+        <li><h3>Манчестер Сити</h3></li>
+        <img src="./logos/mancity.png" alt="mancity" width="100px" />
+        <li><h3>Ливерпуль</h3></li>
+        <img src="./logos/liv.png" alt="liverpool" width="100px" />
+        <li><h3>Челси</h3></li>
+        <img src="./logos/che.png" alt="chelsea" width="100px" />
+        <li><h3>Манчестер Юнайтед</h3></li>
+        <img src="./logos/manu.png" alt="manunited" width="100px" />
+        <li><h3>Вест Хэм</h3></li>
+        <img src="./logos/whu.png" alt="westham" width="100px" />
+        <li><h3>Арсенал</h3></li>
+        <img src="./logos/ars.png" alt="arsenal" width="100px" />
+      </ul>
+    </div>
+    <div id="table">
+      <h2><center>Текущая таблица лиги</center></h2>
+      <table
+        width="50%"
+        border="1"
+        cellspacing="0"
+        cellpadding="0"
+        style="margin: 0 auto"
+      >
+        <thead>
+          <tr>
+            <th width="4%">#</th>
+            <th width="40%">Название команды</th>
+            <th width="7%">Игры</th>
+            <th width="7%">Выигрыши</th>
+            <th width="7%">Ничьи</th>
+            <th width="7%">Поражения</th>
+            <th width="7%">Голов забито</th>
+            <th width="7%">Голов пропущенно</th>
+            <th width="7%">Разница мячей</th>
+            <th width="7%">Количество очков</th>
+          </tr>
+          <tr>
+            <th style="background-color: blue">1</th>
+            <th>Манчестер Сити</th>
+            <th>23</th>
+            <th>18</th>
+            <th>3</th>
+            <th>2</th>
+            <th>55</th>
+            <th>14</th>
+            <th class="pg">+41</th>
+            <th>57</th>
+          </tr>
+          <tr>
+            <th style="background-color: blue">2</th>
+            <th>Ливерпуль</th>
+            <th>22</th>
+            <th>14</th>
+            <th>6</th>
+            <th>2</th>
+            <th>58</th>
+            <th>19</th>
+            <th class="pg">+39</th>
+            <th>48</th>
+          </tr>
+          <tr>
+            <th style="background-color: blue">3</th>
+            <th>Челси</th>
+            <th>24</th>
+            <th>13</th>
+            <th>8</th>
+            <th>3</th>
+            <th>48</th>
+            <th>18</th>
+            <th class="pg">+30</th>
+            <th>47</th>
+          </tr>
+          <tr>
+            <th style="background-color: blue">4</th>
+            <th>Манчестер Юнайтед</th>
+            <th>22</th>
+            <th>11</th>
+            <th>5</th>
+            <th>6</th>
+            <th>36</th>
+            <th>30</th>
+            <th class="pg">+6</th>
+            <th>38</th>
+          </tr>
+          <tr>
+            <th style="background-color: brown">5</th>
+            <th>Вест Хэм</th>
+            <th>23</th>
+            <th>11</th>
+            <th>4</th>
+            <th>8</th>
+            <th>41</th>
+            <th>31</th>
+            <th class="pg">+10</th>
+            <th>36</th>
+          </tr>
+          <tr>
+            <th style="background-color: goldenrod">6</th>
+            <th>Арсенал</th>
+            <th>21</th>
+            <th>11</th>
+            <th>3</th>
+            <th>7</th>
+            <th>33</th>
+            <th>25</th>
+            <th class="pg">+8</th>
+            <th>36</th>
+          </tr>
+          <tr>
+            <th>7</th>
+            <th>Тоттенхэм</th>
+            <th>20</th>
+            <th>11</th>
+            <th>3</th>
+            <th>6</th>
+            <th>26</th>
+            <th>24</th>
+            <th class="pg">+2</th>
+            <th>36</th>
+          </tr>
+          <tr>
+            <th>8</th>
+            <th>Вульверхэмптон</th>
+            <th>21</th>
+            <th>10</th>
+            <th>4</th>
+            <th>7</th>
+            <th>19</th>
+            <th>16</th>
+            <th class="pg">+3</th>
+            <th>34</th>
+          </tr>
+          <tr>
+            <th>9</th>
+            <th>Брайтон</th>
+            <th>22</th>
+            <th>6</th>
+            <th>12</th>
+            <th>4</th>
+            <th>23</th>
+            <th>23</th>
+            <th class="zg">0</th>
+            <th>30</th>
+          </tr>
+          <tr>
+            <th>10</th>
+            <th>Лестер Сити</th>
+            <th>20</th>
+            <th>7</th>
+            <th>5</th>
+            <th>8</th>
+            <th>34</th>
+            <th>37</th>
+            <th class="mg">-3</th>
+            <th>26</th>
+          </tr>
+          <tr>
+            <th>11</th>
+            <th>Астон Вилла</th>
+            <th>21</th>
+            <th>8</th>
+            <th>2</th>
+            <th>11</th>
+            <th>28</th>
+            <th>32</th>
+            <th class="mg">-4</th>
+            <th>26</th>
+          </tr>
+          <tr>
+            <th>12</th>
+            <th>Саутгемптон</th>
+            <th>22</th>
+            <th>5</th>
+            <th>10</th>
+            <th>7</th>
+            <th>26</th>
+            <th>34</th>
+            <th class="mg">-8</th>
+            <th>25</th>
+          </tr>
+          <tr>
+            <th>13</th>
+            <th>Кристал Пэлас</th>
+            <th>22</th>
+            <th>5</th>
+            <th>9</th>
+            <th>8</th>
+            <th>31</th>
+            <th>34</th>
+            <th class="mg">-3</th>
+            <th>24</th>
+          </tr>
+          <tr>
+            <th>14</th>
+            <th>Брентфорд</th>
+            <th>23</th>
+            <th>6</th>
+            <th>5</th>
+            <th>12</th>
+            <th>26</th>
+            <th>38</th>
+            <th class="mg">-12</th>
+            <th>23</th>
+          </tr>
+          <tr>
+            <th>15</th>
+            <th>Лидс Юнайтед</th>
+            <th>21</th>
+            <th>5</th>
+            <th>7</th>
+            <th>9</th>
+            <th>24</th>
+            <th>40</th>
+            <th class="mg">-16</th>
+            <th>22</th>
+          </tr>
+          <tr>
+            <th>16</th>
+            <th>Эвертон</th>
+            <th>20</th>
+            <th>5</th>
+            <th>4</th>
+            <th>11</th>
+            <th>24</th>
+            <th>35</th>
+            <th class="mg">-11</th>
+            <th>19</th>
+          </tr>
+          <tr>
+            <th>17</th>
+            <th>Норвич Сити</th>
+            <th>22</th>
+            <th>4</th>
+            <th>4</th>
+            <th>14</th>
+            <th>13</th>
+            <th>45</th>
+            <th class="mg">-32</th>
+            <th>16</th>
+          </tr>
+          <tr>
+            <th style="background-color: red">18</th>
+            <th>Уотфорд</th>
+            <th>21</th>
+            <th>4</th>
+            <th>3</th>
+            <th>14</th>
+            <th>23</th>
+            <th>40</th>
+            <th class="mg">-17</th>
+            <th>15</th>
+          </tr>
+          <tr>
+            <th style="background-color: red">19</th>
+            <th>Ньюкасл Юнайтед</th>
+            <th>21</th>
+            <th>2</th>
+            <th>9</th>
+            <th>10</th>
+            <th>21</th>
+            <th>43</th>
+            <th class="mg">-22</th>
+            <th>15</th>
+          </tr>
+          <tr>
+            <th style="background-color: red">20</th>
+            <th>Бёрнли</th>
+            <th>19</th>
+            <th>1</th>
+            <th>10</th>
+            <th>8</th>
+            <th>16</th>
+            <th>27</th>
+            <th class="mg">-11</th>
+            <th>13</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <div>
+      <div id="smalltable">
+        <table
+          class="tablebg"
+          width="20%"
+          border="1"
+          cellspacing="0"
+          cellpadding="0"
+          style="margin: 0 auto"
+        >
+          <thead>
+            <tr>
+              <th width="10%">Цвет</th>
+              <th width="45%">Проход/Вылет</th>
+              <th width="45%">Турнир</th>
+            </tr>
+            <tr>
+              <th width="10%" style="background-color: blue"></th>
+              <th width="45%">Проход</th>
+              <th width="45%">Лига Чемпионов</th>
+            </tr>
+            <tr>
+              <th width="10%" style="background-color: brown"></th>
+              <th width="45%">Проход</th>
+              <th width="45%">Лига Европы</th>
+            </tr>
+            <tr>
+              <th width="10%" style="background-color: goldenrod"></th>
+              <th width="45%">Проход</th>
+              <th width="45%">Лига Конференций</th>
+            </tr>
+            <tr>
+              <th width="10%" style="background-color: red"></th>
+              <th width="45%">Вылет</th>
+              <th width="45%">Чемпионшип</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div id="championship">
+        <h2>Чемпионшип</h2>
+        <p>
+          Чемпионшип Английской футбольной лиги, также известный как просто
+          Чемпионшип (англ. Championship) — высший дивизион Английской
+          футбольной лиги и второй по значимости дивизион в системе футбольных
+          лиг Англии после Премьер-лиги. Чемпионшип был основан в 2004 году
+          вместо Первого дивизиона Футбольной лиги. По данным Deloitte, в сезоне
+          2004/05 он был признан самым богатым вторым футбольным дивизионом в
+          мире и шестым богатейшим дивизионом в Европе.
+        </p>
+      </div>
+    </div>
+    <div style="text-align: right" id="link">
+      <a
+        href="https://www.premierleague.com/matchweek/6685/blog"
+        target="_blank"
+        ><img src="https://img.icons8.com/fluency/64/000000/domain.png"
+      /></a>
+      <a href="https://www.facebook.com/premierleague" target="_blank"
+        ><img
+          src="https://img.icons8.com/dusk/64/000000/facebook-new--v2.png" /></a
+      ><a href="https://www.instagram.com/premierleague/" target="_blank"
+        ><img src="https://img.icons8.com/fluency/64/000000/instagram-new.png"
+      /></a>
+    </div>
+  </body>
+</html>

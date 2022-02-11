@@ -1,0 +1,20 @@
+body {
+	background-image: url(https://image.freepik.com/free-vector/two-borders-with-pattern-composed-of-white-yogurt-or-ice-cream-drips-on-transparent-seamless_1284-27940.jpg);
+	background-size: auto;
+	font-family: 'Festive', cursive;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h1,
+h2 {
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h3 {
+	border: 1px solid grey;
+}
+
+img {
+	border-radius: 10%;
+	opacity: 0.5;
+}

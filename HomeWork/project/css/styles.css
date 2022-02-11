@@ -1,0 +1,24 @@
+p {
+  color: darkblue;
+}
+
+#darkblue-text {
+  color: darkblue;
+}
+
+.grey-bg {
+  background-color: rgb(207, 204, 204);
+}
+
+h1,
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}

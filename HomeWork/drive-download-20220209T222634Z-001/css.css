@@ -1,0 +1,54 @@
+* {
+  font-family: "Source Serif 4", "Syne Tactile";
+}
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: rgba(235, 212, 212, 0.438);
+}
+h1 {
+  margin: 5px 400px;
+  color: rgb(173, 96, 1);
+  padding: 10px 120px;
+  border: 8px solid rgba(255, 230, 0, 0.212);
+  font-family: fantasy;
+}
+
+.image {
+  margin: 10px 350px;
+}
+.header1 {
+  margin: 5px 600px;
+  text-decoration: underline;
+  font-style: bold;
+  font-size: 1.4em;
+  font-family: "Syne Tactile";
+}
+.about-us {
+  text-align: center;
+  color: rgb(173, 96, 1);
+  font-family: fantasy;
+}
+
+.black-border {
+  border: 1px solid black;
+  margin: 1px 200px;
+  padding: 10px 400px;
+}
+.text {
+  margin: 10px 100px auto;
+  overflow: hidden;
+  text-align: left;
+}
+.contast-us {
+  margin: 20px 600px;
+  text-align: center;
+  border: 4px solid rgba(255, 230, 0, 0.212);
+}
+.phone {
+  color: black;
+  font-style: bold;
+  text-decoration: underline;
+}

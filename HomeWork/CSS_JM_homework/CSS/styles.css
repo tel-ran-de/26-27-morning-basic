@@ -1,0 +1,83 @@
+
+
+html {
+    font-size: 18px;
+}
+
+body.index {
+    background-color: #ffcece;
+}
+
+body.index1 {
+    background-color:   #ffc1c8; 
+}
+
+body.blog {
+    background-color: #ffe3b0;
+}
+
+body.history {
+    background-color: #8ed6ff;
+}
+
+body.costumer {
+    background-color: #defcf9; 
+}
+
+.company_nformation {
+    color: rgb(13, 28, 241);
+    font-style: bold;
+
+}
+
+.email {
+    color: rgb(4, 10, 19);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+h1,
+h2 {
+    font-family: 'Lato' , sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  .shadow {
+    width: 40%;
+    box-shadow: 6px 6px 8px #f3f5f7;
+    border-radius: 11px;
+    background-color: rgb(252, 252, 252);
+  }
+  .shadow1 {
+    width: 80%;
+    box-shadow: 8px 8px 10px #b3ffd9;
+    border-radius: 11px;
+    background-color: rgb(219, 248, 240);
+  }
+  
+  #clothing-size {
+    padding: 20px;
+  }
+  
+  .table {
+    color: rgb(47, 139, 139);
+    margin: 25px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(206, 236, 234);
+    border-radius: 10px;
+    border-color: rgb(1, 8, 12);
+    font-style: italic;
+  }
+  .only-size {
+    font-size: 0.8em;
+    text-align:justify;
+  }
+  

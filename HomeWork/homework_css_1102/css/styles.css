@@ -1,0 +1,51 @@
+body {
+  background-image: url("../img/triangles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+}
+#header {
+  border-bottom: 5px;
+  border-style: double;
+  border-color: blueviolet;
+}
+h1 {
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Khand", sans-serif;
+  text-decoration: underline;
+}
+
+img {
+  border-color: blueviolet;
+  border-style: dashed;
+  border-width: 5px;
+}
+
+a {
+  font-family: "Quattrocento", serif;
+}
+
+#photo ul {
+  list-style: none;
+}
+
+.yellowtext {
+  color: chocolate;
+}
+
+#demand table {
+  background-color: aliceblue;
+}
+
+img.logo {
+  border-style: dashed; /*gde ramka?*/
+  border: 6px;
+  border-color: darkblue;
+  margin: 4px;
+  padding: 2px;
+}

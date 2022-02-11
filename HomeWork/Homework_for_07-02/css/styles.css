@@ -1,0 +1,41 @@
+.grey {
+  background-color: rgb(30, 30, 30);
+}
+#logo {
+  background-color: black;
+}
+.es {
+  margin-left: 20%;
+}
+.h1,
+.h2 {
+  margin-left: 20%;
+  color: rgb(183, 151, 93);
+  font-weight: normal;
+}
+.navigation {
+  text-align: right;
+  margin: 10px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.text {
+  margin-left: 20%;
+  color: rgb(151, 170, 183);
+}
+.headder {
+  color: white;
+  background-color: rgb(183, 151, 93);
+}
+.table {
+  border-top: hidden;
+  border-left: hidden;
+}
+#contact {
+  margin: 10px;
+}

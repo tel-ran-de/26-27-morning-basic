@@ -1,0 +1,14 @@
+h1,
+h3 {
+  font-family: "Rubik", sans-serif;
+  color: rgb(238, 238, 238);
+  -webkit-text-stroke: 1px rgb(12, 12, 12);
+}
+h2 {
+  font-family: "Rubik", sans-serif;
+  color: rgb(179, 216, 221);
+  -webkit-text-stroke: 1px rgb(12, 12, 12);
+}
+th {
+  font-family: "Nunito Sans", sans-serif;
+}
