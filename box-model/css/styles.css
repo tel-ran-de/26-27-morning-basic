@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+.parent {
+	width: 50%;
+	border: 5px solid #e18728;
+	float: left;
+}
+
+.child {
+	width: 90%;
+	padding: 15%;
+	border: 10px solid black;
+	margin: 0.5em auto;
+}
+
+.twins {
+	width: 48%;
+	margin: 0 1%;
+	padding: 1em;
+	border: 4px solid black;
+	float: left;
+}
+/* .twins:last-child {
+	margin-right: 0;
+} */

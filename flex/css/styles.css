@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	height: 300px;
+	border: 1px solid #444;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.green {
+	width: 50px;
+	height: 60px;
+	background-color: green;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+.yellow {
+	width: 60px;
+	height: 40px;
+	background-color: rgb(169, 122, 5);
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.red {
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+.blue {
+	width: 80px;
+	height: 50px;
+	background-color: blue;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
