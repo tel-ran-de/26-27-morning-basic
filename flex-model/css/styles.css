@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 90%;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid red;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-around; */
+	gap: 10px;
+	align-items: stretch;
+}
+
+.child {
+	width: 18%;
+	/* height: 100px; */
+	border: 1px solid #777;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	font-size: 2em;
+}
+
+.item-3 {
+	align-self: center;
+	height: 100px;
+	order: 1;
+}
+
+.item-2 {
+	order: 3;
+}
+
+.item-5 {
+	order: -100500;
+}
+
+.item-4 {
+	order: -100500;
+}
