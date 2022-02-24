@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	position: relative;
+}
+
+li:after {
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	/* background-color: red; */
+	background-image: url(https://flyclipart.com/thumb2/pictures-of-list-bullet-png-586100.png);
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	top: 0;
+	left: -20px;
+}
