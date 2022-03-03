@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.plans {
+	padding: 50px 0 80px;
+	background-color: #525252;
+	color: #fff;
+}
+
+.plans h2 {
+	text-align: center;
+	margin-bottom: 0.3em;
+}
+
+.plans-descr {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.75;
+	margin-bottom: 2em;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	width: 23%;
+	background-color: #016bf3;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.popular {
+	/* background-color: #05a784; */
+	background-image: linear-gradient(#18d0a8, #016bf3);
+}
+
+.card-title {
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 0.2em;
+}
+
+.card-price {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 0.1em;
+}
+
+.card-period {
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+.card-header {
+	padding-bottom: 1.3em;
+	border-bottom: 1px solid #fff;
+}
+
+.card-body {
+	padding: 1.3em 0;
+}
+
+.card-list li {
+	line-height: 1.5;
+}
+
+.card-action {
+	padding-bottom: 2em;
+}
+
+.btn {
+	font-family: Roboto, sans-serif;
+	border: none;
+	background: #fff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #016bf3;
+	padding: 0.5em 1.5em;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+/* Optional */
+
+@media screen and (max-width: 768px) {
+	.cards {
+		flex-wrap: wrap;
+		gap: 1em;
+	}
+	.card {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.cards {
+		flex-direction: column;
+		gap: 1em;
+	}
+	.card {
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		align-content: center;
+		gap: 1em;
+	}
+	.card-header,
+	.card-body {
+		width: 48%;
+	}
+
+	.card-header {
+		border-bottom: none;
+		border-right: 1px solid #fff;
+	}
+
+	.card-action {
+		width: 100%;
+	}
+}
