@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color-body {
+  width: 85%;
+  height: 600px;
+  display: flex;
+  position: relative;
+  background-color: purple;
+  /* border-radius: 10% 10% 10% 10%; */
+}
+.img-body {
+  width: 70%;
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://crypto.com/nft/assets/images/loaded-lions/hero.jpg);
+  /* border-radius: 5% 5% 5% 5%; */
+  box-shadow: -5px -5px 5px;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+.tour-agency {
+  font-size: 4em;
+  color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  left: -70px;
+  top: 50px;
+  position: absolute;
+  width: 200px;
+}
+.info {
+  color: aliceblue;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 65px;
+  bottom: 50px;
+  width: 300px;
+  font-style: italic;
+  letter-spacing: 1.3px;
+}

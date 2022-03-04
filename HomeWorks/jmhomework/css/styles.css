@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .eltern {
+    width: 85%;
+    height: 750px;
+    background-color: rgba(96, 117, 60, 0.932);
+    position: relative;
+  }
+  
+  
+  .title {
+    padding: 80px 10px;
+    font-size: 5rem;
+    max-width: 10%;
+    position: relative;
+    color: rgb(240, 244, 248);
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 2%;
+    top: 8%;
+  }
+  
+  .write {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 35%;
+    color: rgb(240, 241, 243);
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    text-align:right;
+  }
+  .realestate {
+    padding: 20px 80px;
+    width: 90%;
+    height: 90%;
+    background-image: url(../img/realestate.jpg);
+    /*background-position:10px 10px;*/
+    background-size: cover;
+    position: absolute;
+    left: 8%;
+    top: 16%;
+    box-shadow: 0 0 25px;
+  }
+  

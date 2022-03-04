@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fhoto {
+  background-image: url(../img/vegetable.jpg);
+  width: 100%;
+  height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.card {
+  position: absolute;
+  left: 70px;
+  bottom: 70px;
+}
+.content {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 251, 240, 0.534);
+  box-shadow: 5px 5px 10px;
+  border-radius: 30px 0 30px 30px;
+}
+.content h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 20px;
+}
+.text {
+  padding: 10px 0 10px 20px;
+}
+.autor {
+  padding: 20px;
+}
+.link {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+}
+.link a:hover {
+  border-bottom: 1px dotted #fff;
+}
+.button {
+  background-color: rgba(90, 230, 90, 0.692);
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 20px;
+  height: 30px;
+  width: 50px;
+  color: black;
+  padding: 15px 20px;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}

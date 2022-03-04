@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.article {
+  display: flex;
+  justify-content: space-around;
+}
+.left-container {
+  width: 40%;
+  padding: 20px;
+  justify-content: center;
+}
+.left-container h5 {
+  color: rgb(99, 98, 98);
+  padding-bottom: 10px;
+}
+.left-container h2 {
+  color: rgb(48, 185, 117);
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+}
+.left-container h4 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.text,
+.link {
+  color: rgb(99, 98, 98);
+}
+.right-container {
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(217, 219, 219);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.first,
+.second,
+.third,
+.fourth {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.first span,
+.second span,
+.third span,
+.fourth span {
+  font-size: 3em;
+  font-weight: bold;
+}
+.button {
+  text-decoration: none;
+  color: black;
+}

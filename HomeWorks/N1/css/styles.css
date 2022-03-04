@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.color-body {
+	width: 85%;
+	height: 450px;
+	display: flex;
+	position: relative;
+	background-color: rgb(101, 35, 121);
+}
+.img-body {
+	width: 1100px;
+	height: 470px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(../img/lavenders.jpg);
+	display: flex;
+	position: absolute;
+	top: 40px;
+	right: 50px;
+}
+.tour-agency {
+	font-size: 4em;
+	color: aliceblue;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	left: -70px;
+	top: 50px;
+	position: absolute;
+	width: 200px;
+}
+.info {
+	background-color: rgba(101, 35, 121, 0.6);
+	color: aliceblue;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	right: 65px;
+	bottom: 50px;
+	width: 300px;
+	font-style: italic;
+	letter-spacing: 1.3px;
+	padding: 15px;
+}
