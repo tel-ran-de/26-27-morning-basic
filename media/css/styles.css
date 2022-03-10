@@ -1,0 +1,149 @@
+/*
+
+
+/* @media media_type and (condition: breakpoint) {
+    // CSS rules
+}
+
+
+Media Types
+
+all - all media types
+print - for printers
+screen - for computer screens, tablets, smart-phones
+speech - for screen readers 
+
+@media screen and (max-width: 480px) {
+    .text {
+        font-size: 14px;
+    }
+}
+
+Breakpoints (px)
+
+320 - 480 - Mobile device
+481 - 768 - iPads, Tablet
+769 - 1024 - Small screens, laptop
+1025 - 1280 - Desktop, large screens
+1281 - ... Extra large screens, TV
+
+- Large -> max-width: 1280px -> max-width: 1024px -> max-width: 480px
+
+Mobile first
+
+1. Css rules
+2. @media screen and (min-width:  481px) {
+	css rules
+}
+
+3. @media screen and (min-width:  769px) {
+	css rules
+}
+
+
+.text {
+	font-size: 14px;
+	color:  red;
+}
+
+@media screen and (min-width:  481px) {
+	.text {
+		font-size: 16px;	// red
+	}
+	
+}
+
+@media screen and (min-width:  769px) {
+	.text {
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color:  blue;
+	}
+	
+}*/
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.article h2 {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.article figure {
+	margin-bottom: 15px;
+}
+
+.article img {
+	display: block;
+	width: 80%;
+	margin:  0 auto;
+}
+
+.article-descr {
+	padding: 0 10%;
+}
+
+@media screen and (min-width:  481px) {
+	.articles {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.article {
+		width: 49%
+	}
+	.article img {
+		width: 100%
+	}
+	.article-descr {
+		padding: 0
+	}
+}
+
+@media screen and (min-width:  1025px) {
+	.wrapper {
+		width: 1024px;
+		margin: 0 auto;
+		border:  1px solid red;
+	}
+}
+
+@media screen and (min-width:  1281px) {
+	.wrapper {
+		width: 1280px
+	}
+	.article {
+		width: 24%
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
