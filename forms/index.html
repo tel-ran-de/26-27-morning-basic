@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<form action="#" id="contact-form">
+			<div>
+				<br />
+				<input
+					type="text"
+					id="first_name"
+					name="firstName"
+					value=""
+					placeholder="Enter Your Name"
+				/>
+				<!-- Types: text, email, number, password, file  -->
+			</div>
+			<div>
+				<p>Your favorite colors:</p>
+				<ul>
+					<li>
+						<label for="color-red">Red</label>
+						<input
+							type="checkbox"
+							name="color"
+							id="color-red"
+							value="red"
+							checked
+						/>
+					</li>
+					<li>
+						<label for="color-blue">Blue</label>
+						<input
+							type="checkbox"
+							name="color"
+							id="color-blue"
+							value="blue"
+						/>
+					</li>
+					<li>
+						<label for="color-green">Green</label>
+						<input
+							type="checkbox"
+							name="color"
+							id="color-green"
+							value="green"
+						/>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<p>Do you like to watch TV?</p>
+				<ul>
+					<li>
+						<label for="watch-tv-yes">Yes</label
+						><input
+							type="radio"
+							name="watchTv"
+							id="watch-tv-yes"
+							value="1"
+							checked
+						/>
+					</li>
+					<li>
+						<label for="watch-tv-no">No</label
+						><input
+							type="radio"
+							name="watchTv"
+							id="watch-tv-no"
+							value="0"
+						/>
+					</li>
+				</ul>
+			</div>
+			<hr />
+			<div>
+				<label for="bio">Bio</label><br />
+				<textarea
+					name="bio"
+					id="bio"
+					placeholder="Your Bio here"
+				></textarea>
+			</div>
+			<hr />
+			<div>
+				<label for="course">Your Course</label>
+				<select name="course" id="course">
+					<option>Choose please...</option>
+					<option value="front">FrontEnd</option>
+					<option value="back">BackEnd</option>
+					<option value="qa">QA</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="course1">Your Course</label>
+				<select name="course1" id="course1" multiple>
+					<option value="front" selected>FrontEnd</option>
+					<option value="back">BackEnd</option>
+					<option value="qa">QA</option>
+				</select>
+			</div>
+
+			<input type="hidden" name="pageId" value="contact form" />
+
+			<div>
+				<label for="input-date">Date</label>
+				<input type="date" name="dateOfInput" id="input-date" />
+			</div>
+
+			<button type="submit">Go</button>
+			<input disabled type="submit" value="Go again" />
+			<button type="reset">Clear</button>
+		</form>
+	</body>
+</html>
+
+<!-- { "firstName": "Ivan" } -->

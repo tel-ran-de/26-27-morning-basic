@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 18px;
+	padding: 50px;
+}
+form > div {
+	margin: 30px 0;
+}
+input,
+button {
+	font-size: 18px;
+	padding: 5px;
+}
+
+input[type='text'] {
+	border: none;
+	border-bottom: 1px solid #000;
+	transition: all 0.5s ease-in-out;
+}
+
+input[type='text']:focus {
+	outline: none;
+	font-size: 24px;
+	color: blue;
+	border-bottom-color: blue;
+}
+
+input[name='color'] {
+	transform: scale(1.5);
+}
+
+textarea {
+	width: 80%;
+	height: 150px;
+	padding: 10px;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+	resize: none;
+}
+
+/* for example 
+
+a[href$='.jpg']::before {
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	content: '';
+	top: 10px;
+	right: -50px;
+	background-image: url('jpg.png');
+}
+*/
+select {
+	font-size: 18px;
+	padding: 5px;
+	color: hotpink;
+	width: 100%;
+}
+
+option {
+	background-color: #fff;
+	color: hotpink;
+}
+
+option:checked {
+	background-color: lightblue;
+	color: darkblue;
+}
+
+input[type='checkbox'] {
+	font-size: 36px;
+}
+
+label {
+	font-size: 18px;
+}
+
+ul {
+	width: 30%;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+li > * {
+	display: block;
+	width: 50%;
+}
+
+button {
+	border: none;
+	background-color: hotpink;
+	color: #fff;
+	border-radius: 5px;
+	padding: 8px 20px;
+	box-shadow: 3px 3px 3px rgba(255, 105, 180, 0.4);
+	cursor: pointer;
+	transition: all 1s ease-in-out;
+}
+
+button:hover {
+	transform: scale(1.2) rotate(30deg);
+	background-color: darkblue;
+}
