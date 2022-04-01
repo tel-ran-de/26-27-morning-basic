@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Grid</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				height: 100vh;
+				display: grid;
+				/* grid-template-rows: 160px 100px 1fr 4fr 160px; */
+				grid-template-columns: 1fr 3fr 2fr;
+				/* grid-auto-rows: minmax(100px, auto); */
+				/* display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between; */
+			}
+			div {
+				/* width: 33%; */
+				/* height: 100vh; */
+				background-color: darkblue;
+				color: #fff;
+				font-size: 36px;
+				border: 3px solid lightblue;
+			}
+			.links {
+				display: flex;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="header">Header</div>
+		<div class="nav">Nav</div>
+		<div class="adv">Adv</div>
+		<div class="main">Main</div>
+		<div class="footer">Footer</div> -->
+
+		<div>
+			<article class="links">
+				<a href="#">LI 1</a>
+				<a href="#">LI 2</a>
+				<a href="#">LI 3</a>
+			</article>
+		</div>
+		<div>DIV 2</div>
+		<div>DIV 3</div>
+		<div>DIV 4</div>
+		<div>DIV 5</div>
+		<div>DIV 6</div>
+		<div>DIV 7</div>
+		<div>DIV 8</div>
+		<div>DIV 9</div>
+		<div>DIV 10</div>
+		<div>DIV 11</div>
+		<div>DIV 12</div>
+	</body>
+</html>
