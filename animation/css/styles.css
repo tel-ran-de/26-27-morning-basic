@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.animated {
+	font-size: 36px;
+	transition: all 1s ease-in-out;
+	color: red;
+}
+
+.animated:hover {
+	/* font-size: 72px; */
+	color: blue;
+	/* transform: scale(2, 2); */
+}
+
+.red {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: all 1.5s ease-in;
+	transform: translateX(-200px) scale(0.05);
+}
+
+.container:hover .red {
+	transform: scale(1.5, 1.5) rotate(45deg);
+	transform: scale(1) translateX(200px);
+}

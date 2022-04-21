@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #ddd;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header i {
+	cursor: pointer;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 50px 50px;
+	transform: translateX(-200px);
+	transition: all 1.5s ease-in;
+}
+
+nav.active {
+	transform: translateX(0);
+}
+
+.close-nav {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.main-nav {
+	list-style: none;
+}
+
+section {
+	padding: 20px 0;
+	background-color: lightblue;
+}
+
+.green {
+	width: 100px;
+	height: 100px;
+	border: 3px solid green;
+	margin: 0 auto;
+	position: relative;
+	top: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 72px;
+	color: green;
+	transition: all 2s ease-in;
+}
+
+.green:hover {
+	transform: rotateZ(360deg);
+}
+
+.btn {
+	background-color: transparent;
+	border: none;
+	display: inline-block;
+	padding: 0.5em 2em;
+	border-radius: 5px;
+
+	cursor: pointer;
+}
+
+.btn-large {
+	font-size: 1.2em;
+}
+
+.btn-red {
+	border: 1px solid red;
+	color: red;
+}
+
+.btn-green {
+	border: 1px solid green;
+	color: green;
+}
+
+.btn-blue {
+	border: 1px solid blue;
+	color: blue;
+}
+
+.btn-link {
+	color: blue;
+	text-decoration: underline;
+}
+
+.btn-dotted {
+	color: blue;
+	border-bottom: 1px dotted blue;
+}
+
+.btn-group {
+	display: flex;
+	gap: 30px;
+}
+
+.smth {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.shadows {
+	box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+
+.inner-nav {
+	list-style: none;
+	display: none;
+}
+
+.nav > li {
+	position: relative;
+}
+
+.inner-nav {
+	position: absolute;
+	width: 150px;
+	background-color: #eee;
+}
+
+.has-inner:hover > .inner-nav {
+	display: block;
+}
+
+@media screen AND (min-width: 769px) {
+	.logo {
+		width: 30%;
+	}
+	nav {
+		position: static;
+		background-color: transparent;
+		color: #000;
+		padding: 0;
+		transform: none;
+		width: 65%;
+	}
+	.main-nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	.close-nav {
+		display: none;
+	}
+
+	.open-nav {
+		display: none;
+	}
+}
